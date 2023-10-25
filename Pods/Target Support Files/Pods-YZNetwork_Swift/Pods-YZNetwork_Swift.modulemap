@@ -1,0 +1,6 @@
+framework module Pods_YZNetwork_Swift {
+  umbrella header "Pods-YZNetwork_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
