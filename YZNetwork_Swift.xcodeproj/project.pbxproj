@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6265AC132AF9DBBD0047929F /* YZExceptionHandleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6265AC122AF9DBBD0047929F /* YZExceptionHandleUtil.swift */; };
+		6265AC152AF9E2F30047929F /* YZLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6265AC142AF9E2F30047929F /* YZLoginModel.swift */; };
 		62878CF02AE9182F002EE1D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878CEF2AE9182F002EE1D3 /* AppDelegate.swift */; };
 		62878CF22AE9182F002EE1D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878CF12AE9182F002EE1D3 /* SceneDelegate.swift */; };
 		62878CF42AE9182F002EE1D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878CF32AE9182F002EE1D3 /* ViewController.swift */; };
 		62878CF72AE9182F002EE1D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62878CF52AE9182F002EE1D3 /* Main.storyboard */; };
 		62878CF92AE91830002EE1D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62878CF82AE91830002EE1D3 /* Assets.xcassets */; };
 		62878CFC2AE91830002EE1D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62878CFA2AE91830002EE1D3 /* LaunchScreen.storyboard */; };
+		62878D072AE93498002EE1D3 /* YZNetworkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D062AE93498002EE1D3 /* YZNetworkRepository.swift */; };
+		62878D092AE9356D002EE1D3 /* YZNetworkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D082AE9356C002EE1D3 /* YZNetworkAPIService.swift */; };
+		62878D0B2AE93622002EE1D3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D0A2AE93622002EE1D3 /* User.swift */; };
+		62878D0D2AE93730002EE1D3 /* YZNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D0C2AE93730002EE1D3 /* YZNetworkConfig.swift */; };
+		62878D102AE939D8002EE1D3 /* YZListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D0F2AE939D8002EE1D3 /* YZListResponse.swift */; };
+		62878D122AE93A12002EE1D3 /* YZBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D112AE93A12002EE1D3 /* YZBaseResponse.swift */; };
+		62878D152AE93A35002EE1D3 /* YZBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D142AE93A35002EE1D3 /* YZBaseModel.swift */; };
+		62878D172AE93B68002EE1D3 /* YZPageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D162AE93B68002EE1D3 /* YZPageMeta.swift */; };
+		62878D1A2AE93CE8002EE1D3 /* YZDetailReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D192AE93CE8002EE1D3 /* YZDetailReponse.swift */; };
+		62878D1C2AE93D77002EE1D3 /* YZPageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D1B2AE93D77002EE1D3 /* YZPageResponse.swift */; };
+		62878D212AE94214002EE1D3 /* YZObservableMoyaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878D202AE94214002EE1D3 /* YZObservableMoyaExtension.swift */; };
 		86B2ACDDDF81266ACF927F9A /* Pods_YZNetwork_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720DDF609E459805D50768F3 /* Pods_YZNetwork_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6265AC122AF9DBBD0047929F /* YZExceptionHandleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZExceptionHandleUtil.swift; sourceTree = "<group>"; };
+		6265AC142AF9E2F30047929F /* YZLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLoginModel.swift; sourceTree = "<group>"; };
 		62878CEC2AE9182F002EE1D3 /* YZNetwork_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZNetwork_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62878CEF2AE9182F002EE1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62878CF12AE9182F002EE1D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +40,17 @@
 		62878CF82AE91830002EE1D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62878CFB2AE91830002EE1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62878CFD2AE91830002EE1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62878D062AE93498002EE1D3 /* YZNetworkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNetworkRepository.swift; sourceTree = "<group>"; };
+		62878D082AE9356C002EE1D3 /* YZNetworkAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNetworkAPIService.swift; sourceTree = "<group>"; };
+		62878D0A2AE93622002EE1D3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		62878D0C2AE93730002EE1D3 /* YZNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNetworkConfig.swift; sourceTree = "<group>"; };
+		62878D0F2AE939D8002EE1D3 /* YZListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZListResponse.swift; sourceTree = "<group>"; };
+		62878D112AE93A12002EE1D3 /* YZBaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZBaseResponse.swift; sourceTree = "<group>"; };
+		62878D142AE93A35002EE1D3 /* YZBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZBaseModel.swift; sourceTree = "<group>"; };
+		62878D162AE93B68002EE1D3 /* YZPageMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZPageMeta.swift; sourceTree = "<group>"; };
+		62878D192AE93CE8002EE1D3 /* YZDetailReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZDetailReponse.swift; sourceTree = "<group>"; };
+		62878D1B2AE93D77002EE1D3 /* YZPageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZPageResponse.swift; sourceTree = "<group>"; };
+		62878D202AE94214002EE1D3 /* YZObservableMoyaExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZObservableMoyaExtension.swift; sourceTree = "<group>"; };
 		720DDF609E459805D50768F3 /* Pods_YZNetwork_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNetwork_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CD3E3571C289DB2B1BF473 /* Pods-YZNetwork_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetwork_Swift.debug.xcconfig"; path = "Target Support Files/Pods-YZNetwork_Swift/Pods-YZNetwork_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		E96AECA15200B97F37CD0DAB /* Pods-YZNetwork_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetwork_Swift.release.xcconfig"; path = "Target Support Files/Pods-YZNetwork_Swift/Pods-YZNetwork_Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +89,7 @@
 		62878CEE2AE9182F002EE1D3 /* YZNetwork_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				62878D032AE93428002EE1D3 /* YZNetwork */,
 				62878CEF2AE9182F002EE1D3 /* AppDelegate.swift */,
 				62878CF12AE9182F002EE1D3 /* SceneDelegate.swift */,
 				62878CF32AE9182F002EE1D3 /* ViewController.swift */,
@@ -70,8 +97,52 @@
 				62878CF82AE91830002EE1D3 /* Assets.xcassets */,
 				62878CFA2AE91830002EE1D3 /* LaunchScreen.storyboard */,
 				62878CFD2AE91830002EE1D3 /* Info.plist */,
+				62878D0A2AE93622002EE1D3 /* User.swift */,
 			);
 			path = YZNetwork_Swift;
+			sourceTree = "<group>";
+		};
+		62878D032AE93428002EE1D3 /* YZNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				62878D1F2AE941EB002EE1D3 /* NetworkExtension */,
+				62878D0E2AE939C6002EE1D3 /* NetworkModel */,
+				62878D062AE93498002EE1D3 /* YZNetworkRepository.swift */,
+				62878D082AE9356C002EE1D3 /* YZNetworkAPIService.swift */,
+				62878D0C2AE93730002EE1D3 /* YZNetworkConfig.swift */,
+				6265AC122AF9DBBD0047929F /* YZExceptionHandleUtil.swift */,
+			);
+			path = YZNetwork;
+			sourceTree = "<group>";
+		};
+		62878D0E2AE939C6002EE1D3 /* NetworkModel */ = {
+			isa = PBXGroup;
+			children = (
+				62878D182AE93C38002EE1D3 /* Response */,
+				62878D142AE93A35002EE1D3 /* YZBaseModel.swift */,
+				6265AC142AF9E2F30047929F /* YZLoginModel.swift */,
+			);
+			path = NetworkModel;
+			sourceTree = "<group>";
+		};
+		62878D182AE93C38002EE1D3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				62878D112AE93A12002EE1D3 /* YZBaseResponse.swift */,
+				62878D0F2AE939D8002EE1D3 /* YZListResponse.swift */,
+				62878D162AE93B68002EE1D3 /* YZPageMeta.swift */,
+				62878D1B2AE93D77002EE1D3 /* YZPageResponse.swift */,
+				62878D192AE93CE8002EE1D3 /* YZDetailReponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		62878D1F2AE941EB002EE1D3 /* NetworkExtension */ = {
+			isa = PBXGroup;
+			children = (
+				62878D202AE94214002EE1D3 /* YZObservableMoyaExtension.swift */,
+			);
+			path = NetworkExtension;
 			sourceTree = "<group>";
 		};
 		9DAABC8405DD2DD869C100BE /* Pods */ = {
@@ -80,7 +151,6 @@
 				93CD3E3571C289DB2B1BF473 /* Pods-YZNetwork_Swift.debug.xcconfig */,
 				E96AECA15200B97F37CD0DAB /* Pods-YZNetwork_Swift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,8 +278,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				62878CF42AE9182F002EE1D3 /* ViewController.swift in Sources */,
+				62878D0D2AE93730002EE1D3 /* YZNetworkConfig.swift in Sources */,
+				6265AC132AF9DBBD0047929F /* YZExceptionHandleUtil.swift in Sources */,
+				62878D092AE9356D002EE1D3 /* YZNetworkAPIService.swift in Sources */,
+				62878D0B2AE93622002EE1D3 /* User.swift in Sources */,
+				62878D1C2AE93D77002EE1D3 /* YZPageResponse.swift in Sources */,
 				62878CF02AE9182F002EE1D3 /* AppDelegate.swift in Sources */,
+				62878D102AE939D8002EE1D3 /* YZListResponse.swift in Sources */,
 				62878CF22AE9182F002EE1D3 /* SceneDelegate.swift in Sources */,
+				62878D172AE93B68002EE1D3 /* YZPageMeta.swift in Sources */,
+				6265AC152AF9E2F30047929F /* YZLoginModel.swift in Sources */,
+				62878D072AE93498002EE1D3 /* YZNetworkRepository.swift in Sources */,
+				62878D122AE93A12002EE1D3 /* YZBaseResponse.swift in Sources */,
+				62878D1A2AE93CE8002EE1D3 /* YZDetailReponse.swift in Sources */,
+				62878D152AE93A35002EE1D3 /* YZBaseModel.swift in Sources */,
+				62878D212AE94214002EE1D3 /* YZObservableMoyaExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

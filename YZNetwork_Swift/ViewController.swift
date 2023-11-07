@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    func login(_ data: User) {
+        data.phone = "123"
+        
+        YZNetworkRepository.shared
+            .login(data)
+            .subscribeSuccess { [weak self] data in
+                print("login success")
+            }.disposed(by: rx.disposeBag)
+    }
 
 }
 
