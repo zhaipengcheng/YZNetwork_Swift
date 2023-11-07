@@ -29,6 +29,13 @@ class YZNetworkRepository {
 
     }
     
+    func getAPI() -> Observable<YZListResponse<User>> {
+        return provider
+            .rx
+            .request(.getAPI)
+            .asObservable()
+            .mapObject(YZListResponse<User>.self)
+    }
 
     
     /// 构造方法私有化，其他文件只能用单例

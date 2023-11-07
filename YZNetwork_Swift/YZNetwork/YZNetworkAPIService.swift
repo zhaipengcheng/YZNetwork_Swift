@@ -40,7 +40,11 @@ extension YZNetworkAPIService: TargetType {
         case .postAPI1:
             return "v2/postAPI1"
             
-        case .postAPI3 "v3/postApi3"
+        case .postAPI3:
+            return "v3/postApi3"
+            
+        case .getAPI:
+            return "v11/getApi111"
             
         default:
             fatalError("DefaultService path is null")
