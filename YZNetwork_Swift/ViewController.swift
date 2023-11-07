@@ -17,6 +17,19 @@ class ViewController: UIViewController {
     
     func login(_ data: User) {
         data.phone = "123"
+        
+        YZNetworkRepository.shared
+            .login(data)
+            .subscribeSuccess { [weak self] data in
+                print("login success")
+            }
+        
+        
+        YZNetworkRepository.shared
+            .getAPI()
+            .subscribeSuccess { [weak self] data in
+                print("get Api success")
+            }
     }
 
 }
